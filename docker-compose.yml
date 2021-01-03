@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  pywhoami:
+    image: python:3.8-alpine
+    ports:
+      - ${PYPORT:-8080}:8080
+    volumes:
+      - ./:/app
+    command: ["sh", "/app/tools/dev_startup.sh"]
+
+  gowhoami:
+    image: containous/whoami
+    ports:
+      - ${GOPORT:-8081}:80
