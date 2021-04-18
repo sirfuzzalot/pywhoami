@@ -20,7 +20,7 @@ to my original request by a proxy server.
 
 - [Using the PyPI Package](#using-the-pypi-package)
 - [Using the Docker Image](#using-the-docker-image)
-- [HTTP API Reference](#using-the-http-api)
+- [HTTP API Reference](#http-api-reference)
 - [Contributing](#contributing)
 
 ---
@@ -111,7 +111,7 @@ py -m pywhoami --bind 0.0.0.0:5000
 
 ---
 
-### Using Docker
+### Using the Docker Image
 
 You will need the following:
 
