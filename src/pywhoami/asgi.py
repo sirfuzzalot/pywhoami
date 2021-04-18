@@ -72,8 +72,8 @@ async def index() -> Response:
         for key, value in body_dict.items():
             for item in value:
                 body.append(f"{key}: {item}")
-    elif body := await (request.get_data()).decode():
-        body = [body]
+    elif body := await request.get_data():
+        body = [body.decode()]
     else:
         body = []
 
@@ -132,8 +132,7 @@ async def api() -> Response:
         "method": request.method,
         "url": request.full_path,
         "protocol": (
-            f"{request.scope['scheme'].upper()}/"
-            + request.scope['http_version']
+            f"{request.scope['scheme'].upper()}/" + request.scope["http_version"]
         ),
         "host": request.host,
         "userAgent": str(request.user_agent),
