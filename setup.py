@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright Contributors to the pywhoami project
+
 import sys
 
 from setuptools import setup
