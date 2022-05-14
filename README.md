@@ -6,7 +6,7 @@
 
 [![PyPI Version](https://img.shields.io/pypi/v/pywhoami.svg)](https://pypi.python.org/pypi/pywhoami)
 [![Docs](https://img.shields.io/badge/docs-passing-brightgreen.svg)](https://github.com/sirfuzzalot/pywhoami)
-[![License: GPL v3](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python Versions](https://shields.io/pypi/pyversions/pywhoami)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
